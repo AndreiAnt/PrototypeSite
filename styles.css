@@ -5,6 +5,12 @@ body, html {
     font-family: 'Racing Sans One', sans-serif;
 }
 
+@media (min-width: 768px) {
+    body, html {
+        overflow: hidden; /* Ascunde barele de scroll */
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
