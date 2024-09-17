@@ -11,6 +11,14 @@ body, html {
     }
 }
 
+@media (max-width: 768px) {
+    body, html {
+        font-family: 'Racing Sans One', sans-serif;
+        font-size: 16px; /* Ajustează dimensiunea la una mai potrivită pentru mobile */
+    }
+}
+
+
 html {
     scroll-behavior: smooth;
 }
