@@ -6,15 +6,9 @@ body, html {
     font-family: 'Racing Sans One', sans-serif;
 }
 
-@media (min-width: 768px) {
-    body, html {
-        overflow: hidden; /* Ascunde barele de scroll */
-    }
-}
 
-html {
-    scroll-behavior: smooth;
-}
+
+
 
 
 .topbar {
@@ -201,12 +195,7 @@ html {
 }
 
 /* Imaginea în partea dreaptă pentru secțiunea 4 */
-#section4 img {
-    width: 50%;
-    height: auto;
-    margin-right: 20px;
-    object-fit: cover;
-}
+
 
 /* Stil pentru butonul Get in touch */
 #section4 button {
@@ -232,7 +221,7 @@ html {
     background-color: rgb(53, 57, 53); 
     padding: 40px 20px; /* Adaugă spațiu în partea de sus */
     border-radius: 10px;
-    height: calc(100vh - 80px); /* Ajustare înălțime pentru a permite padding */
+    height: 1200px /* Ajustare înălțime pentru a permite padding */
 }
 
 #section5 form {
@@ -417,6 +406,27 @@ h6 {
     font-size: 30px; /* Aceeași dimensiune ca DAAS-Solution */
     color: rgb(255, 255, 255); /* Culoare neagră */
     text-align: center; /* Aliniere la stânga */
-    margin-left: 20px; /* Un mic spațiu de la marginea stângă */
+    margin-left: 2  0px; /* Un mic spațiu de la marginea stângă */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
+/* Reduce margin-top to bring the contact info closer to the button */
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px; /* Reduced from 20px to 10px */
+}
+
+.contact-info img.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.contact-info .contact-text {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px; /* Adjusted margin for more compact alignment */
+}
+
